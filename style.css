@@ -43,7 +43,7 @@
     font-style: normal;
     font-weight: 500;
     padding: 10px 20px;
-    
+
 }
 
 .home {
@@ -52,10 +52,12 @@
     width: 100%;
     height: 100%;
 }
-.home_content{
+
+.home_content {
     padding: 120px 40px;
 
 }
+
 .home_con1 {
     color: #FFF;
     font-family: Lato;
@@ -79,7 +81,8 @@
     line-height: 160%;
     margin-top: 10px;
 }
-.home_btn{
+
+.home_btn {
     background: #F50103;
     border: none;
     color: #FFF;
@@ -92,9 +95,26 @@
     padding: 20px 30px;
     margin-top: 25px;
 }
-.connect{
+
+.connect {
+    background: #F50103 ;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 150px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.connect_item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.connect_link {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    padding: 30px;
+    text-decoration: none;
 }

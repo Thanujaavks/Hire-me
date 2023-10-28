@@ -121,7 +121,7 @@
 
 .service {
     background: #101010;
-    padding: 150px 100px;
+    padding: 150px 100px 80px 100px;
 }
 
 .service_head {
@@ -146,7 +146,14 @@
 }
 .service_content{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 40px;
+}
+.service_content1{
+    margin: 20px;
+    padding: 40px;
+    background: #181818;
 }
 
 .service_head1 {
@@ -156,6 +163,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 46px;
+    margin-top: 5px;
 }
 
 .service_parag1 {
@@ -165,4 +173,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    margin-top: 10px;
+
 }

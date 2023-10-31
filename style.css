@@ -215,7 +215,11 @@ svg {
 .portfolio {
     background: #101010;
     text-align: center;
-    padding: 42px;
+    padding: 35px;
+}
+
+.portfolio_header {
+    padding: 50px 300px 30px 350px;
 }
 
 .portfolio_head {
@@ -225,8 +229,6 @@ svg {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 71.5px;
-    margin: 20px;
 }
 
 .portfolio_content {
@@ -236,5 +238,24 @@ svg {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%;
+    line-height: 150%;
+    margin: 10px 50px;
+}
+
+.portfolio_btn {
+    background: #F54C1E;
+    border: none;
+    border-radius: 1px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    margin-top: 30px;
+}
+.gym{
+    background: #101010;
 }
